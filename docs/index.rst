@@ -410,6 +410,7 @@ runserver
 **Flask-Script** has a couple of ready commands you can add and customise: ``Server`` and ``Shell``.
 
 The ``Server`` command runs the **Flask** development server.
+::
 
     from flask.ext.script import Server, Manager
     from myapp import create_app
